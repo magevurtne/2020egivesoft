@@ -1,0 +1,296 @@
+html, body{
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sup {
+  top: 0 !important;
+}
+
+/*  导航*/
+.ivu-menu {
+  font-size: 16px !important;
+}
+
+.ivu-menu-item {
+  font-size: 16px !important;
+}
+
+.ivu-menu-horizontal.ivu-menu-light:after {
+  height: 0 !important;
+}
+
+.ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-nva:hover {
+  color: #0C418E !important;
+  border-bottom: 4px solid #0C418E !important;
+}
+
+.ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-nva.ivu-menu-item-active {
+  color: #0C418E !important;
+  border-bottom: 4px solid #0C418E !important;
+}
+
+.ivu-menu-submenu-title {
+  //color: #0C418E !important;
+
+}
+
+.ivu-menu-child-item-active {
+  color: #0C418E !important;
+  border-bottom: 4px solid #0C418E !important;
+}
+
+.ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu-title:hover {
+  color: #0C418E !important;
+  border-bottom: 4px solid #0C418E !important;
+}
+
+.ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu:hover {
+  color: #0C418E !important;
+  border-bottom: 4px solid #0C418E !important;
+}
+
+.P_S .ivu-select-dropdown {
+  /*display: block!important;*/
+}
+
+.ivu-select-dropdown {
+  background-color: #F6F6F6 !important;
+  margin-top: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  position: fixed !important;
+  left: 0 !important;
+  width: 100% !important;
+  cursor: default;
+}
+
+.ivu-menu-item-group > ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ivu-menu-drop-list {
+  width: 1104px;
+  margin: 0 auto;
+  cursor: default;
+}
+
+.ivu-menu-item-group-title {
+  font-size: 16px !important;
+  color: #343434 !important;
+  border-bottom: 1px solid #D1D1D1;
+  padding: 20px 0 15px 0 !important;
+  height: inherit !important;
+  line-height: normal !important;
+}
+
+.ivu-menu-horizontal .ivu-menu-submenu .ivu-select-dropdown {
+  width: 100% !important;
+}
+
+.ivu-menu-horizontal .ivu-menu-submenu .ivu-select-dropdown .ivu-menu-item {
+  color: #343434 !important;
+  width: 33% !important;
+  padding: 7px 16px 8px 0 !important;
+  font-size: 12px !important;
+}
+
+.ivu-menu-horizontal .ivu-menu-submenu .ivu-select-dropdown .ivu-menu-item:hover {
+  background: inherit !important;
+  color: #0C418E !important;
+}
+
+.plan .ivu-select-dropdown {
+  /*display: block!important;*/
+}
+
+.plan .ivu-select-dropdown .ivu-menu-drop-list .ivu-menu-item img {
+  width: 316px;
+  height: 150px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.plan .ivu-select-dropdown .ivu-menu-drop-list .ivu-menu-item p {
+  color: #343434;
+  font-size: 16px;
+  border-bottom: 1px solid #D1D1D1;
+  width: 316px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.plan .ivu-menu-item-group-title {
+  border-bottom: 0;
+}
+
+/*首页-banner切换*/
+.home-banner .ivu-carousel-dots li.ivu-carousel-active > button {
+  width: 60px;
+}
+
+.home-banner .ivu-carousel-dots li button {
+  background: #fff;
+  height: 6px;
+  border-radius: 3px;
+  width: 60px;
+}
+
+.home-banner .ivu-carousel-dots-inside {
+  bottom: 107px;
+  /*right: -21%;*/
+}
+
+/*首页-产品中心-tab切换*/
+.home-ailway .ivu-tabs {
+  width: 730px;
+  background-color: rgba(9, 59, 59, 0.54);
+  margin: 0 auto;
+  left: 6.8%;
+  padding: 24px 68px 0 68px;
+}
+
+.home-ailway .ivu-tabs-ink-bar {
+  background-color: #D8ECFF;
+}
+
+.home-ailway .ivu-tabs-bar {
+  margin-bottom: 0;
+}
+
+.home-ailway .ivu-tabs-nav .ivu-tabs-tab {
+  color: #fff;
+  font-size: 24px;
+}
+
+.home-ailway .ivu-tabs-nav .ivu-tabs-tab:hover {
+  color: #D8ECFF;
+}
+
+/*首页-新闻-轮播*/
+.home-new .ivu-carousel-dots-inside {
+  bottom: 80px;
+  left: 108px;
+}
+
+.home-new .ivu-carousel-dots li.ivu-carousel-active > button.radius {
+  width: 11px;
+}
+
+.home-new .ivu-carousel-dots li button.radius {
+  height: 11px;
+  width: 11px;
+}
+
+.home-new .ivu-carousel-dots li {
+  margin: 0 9px
+}
+
+/*每个页面的数字标题*/
+.yy-sec-tit,
+.titile {
+  width: 250px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.yy-sec-tit .f32,
+.titile .f32 {
+  font-size: 32px;
+  color: #343434;
+}
+
+.yy-sec-tit .f16,
+.titile .f16 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+/*联系我们-tabs*/
+.dContact .ivu-tabs-bar {
+  border-bottom: 0;
+  background-color: #fff;
+}
+
+.dContact .ivu-tabs-nav-wrap {
+  margin-bottom: 0;
+}
+
+.dContact .ivu-tabs-nav .ivu-tabs-tab {
+  width: 368px;
+  padding: 0;
+  border: 1px solid #DADADA;
+  border-right: 0;
+  margin-right: 0;
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.dContact .ivu-tabs-nav .ivu-tabs-tab:last-child {
+  border-right: 1px solid #DADADA;
+}
+
+.dContact .ivu-tabs-nav .ivu-tabs-tab-active {
+  color: #fff;
+  background-color: #0090FF;
+}
+
+.dContact .ivu-tabs-nav .ivu-tabs-tab:hover {
+  color: #0090FF;
+}
+
+.dContact .ivu-tabs-nav-container:focus .ivu-tabs-tab-focused {
+  color: #fff !important;
+  border-color: transparent !important;
+}
+
+.dContact .ivu-tabs-ink-bar {
+  height: 0;
+  background-color: transparent;
+}
+
+.dContact .dCol {
+  border: 1px solid #DADADA;
+  border-right: 0;
+  background-color: #fff;
+  height: 346px;
+  padding-left: 30px;
+  padding-top: 25px;
+}
+
+.dContact .dCol p {
+  color: #343434;
+  font-size: 16px;
+  line-height: 48px;
+}
+
+//add by cx
+//关于我们-发展历程
+.swiper-timeline .swiper-container{
+  --swiper-theme-color: #9CC7EA;
+  --swiper-pagination-color: #9CC7EA;/* 两种都可以 */
+}
+
+.swiper-album {
+  .swiper-pagination-total{
+    font-size: 20px;
+  }
+
+  .swiper-pagination-current{
+    color: #0090FF;
+    vertical-align: top;
+  }
+}

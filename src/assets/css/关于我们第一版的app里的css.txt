@@ -1,0 +1,108 @@
+/*关于我们-发展历程-步骤条*/
+.dHistory .ivu-timeline{
+  margin: 70px 0 0 0;
+}
+.dHistory .ivu-timeline-item{
+  padding:0px;
+}
+.dHistory .ivu-timeline-item-tail {
+  border-left: 6px solid #0C418E;
+  position: absolute;
+  left: 50%;
+  top: 0;
+}
+.dHistory .ivu-timeline-item-head-blue {
+  border-color: #0C418E;
+  color: #0C418E;
+}
+.dHistory .ivu-timeline-item-head {
+  width: 24px;
+  height: 24px;
+  border: 6px solid ;
+  left: calc(50% - 9px)
+}
+.dHistory .ivu-timeline-item-content{
+  overflow: hidden;
+  padding-left: 0px;
+  padding-bottom: 95px;
+}
+.dHistory .ivu-timeline-item-content .itemLeft{
+  border: 1px solid #e3e3e3;
+  width: 500px;
+  height: 240px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  position: relative;
+}
+.dHistory .ivu-timeline .lastIcon .ivu-timeline-item-head{
+  border: 0;
+  background-image:url("assets/aboutImg/downArrow.png");
+  width: 30px;
+  height: 28px;
+  left: calc(50% - 12px);
+  border-radius: 0;
+  z-index: -1;
+  top: -5px;
+}
+.dHistory .ivu-timeline .lastIcon  .ivu-timeline-item-content{
+  padding-bottom: 50px;
+}
+/*联系我们-tabs*/
+.dContact .ivu-tabs-bar{
+  border-bottom:0;
+  background-color: #fff;
+}
+.dContact .ivu-tabs-nav-wrap{
+  margin-bottom: 0;
+}
+.dContact .ivu-tabs-nav .ivu-tabs-tab{
+  width: 368px;
+  padding:  0px;
+  border: 1px solid #DADADA;
+  border-right:0;
+  margin-right: 0px;
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  font-size: 18px;
+}
+.dContact .ivu-tabs-nav .ivu-tabs-tab:last-child{
+  border-right: 1px solid #DADADA;
+}
+.dContact .ivu-tabs-nav .ivu-tabs-tab-active{
+  color: #fff;
+  background-color: #0C428E;
+}
+.dContact .ivu-tabs-nav .ivu-tabs-tab:hover{
+  color: #515a6e;
+}
+.dContact .ivu-tabs-nav-container:focus .ivu-tabs-tab-focused{
+  color: #fff!important;
+  border-color: transparent!important;
+}
+.dContact .ivu-tabs-ink-bar{
+  height: 0;
+  background-color: transparent;
+}
+.dContact .dCol{
+  border: 1px solid #DADADA;
+  border-right: 0;
+  background-color: #fff;
+  height: 346px;
+  padding-left:30px;
+  padding-top:25px;
+}
+.dContact  .dCol p{
+  color: #343434;
+  font-size: 16px;
+  line-height: 48px;
+}
+/*联系我们-荣誉资质*/
+.dHonor .ivu-carousel-dots-inside{
+  bottom: -10%;
+}
+/*首页-tabs*/
+.home .ivu-tabs-ink-bar{
+  background-color:#0C418E;
+}
